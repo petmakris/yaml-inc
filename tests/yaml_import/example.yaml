@@ -1,0 +1,7 @@
+#!define variable=defined_value
+#!include 'a/a.yaml'
+#!include 'b/b.yaml'
+#example.yaml
+from_define: {{variable}}
+rootdir: {{root}}
+rootappend: {{root::hello}}

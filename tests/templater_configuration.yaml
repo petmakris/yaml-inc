@@ -1,0 +1,30 @@
+templater:
+    FLAG1: '#define MIN_BLE 1'
+    FLAG2: '#define MAX_BLE 0'
+    FLAG3: '#define MED_BLE 0'
+    FLAG4: '#define MAD_BLE 1'
+    FLAG5: |+
+        #define LVL_9000 9000
+        int get_meaning_of_life(Life *life) {
+           if (life->experencies > LVL_9000)
+               return 42;
+           else
+               return -1;
+        }
+    FLAG6: |
+        #define V ;for(n=0;o=q[n],n<81;n++)
+        int o,n,q[];d(i,a,j){V i=o?i:n;V a|=(n-i)%9&&n/9-i/9&&i/27^n/27|i%9/3^n%9/3?0:1<<o;for(j=9;q[i]=j;)i=1<<j--&~a&&d(n,0)?n:i;return n==i;}main(m){for(scanf("%d",&m);m--;){V scanf("%d",q+n);d(n,0)V printf("%d ",o);}}
+    FLAG7: |
+        1234567890-=
+        !@#$%^&*()_+
+        qwertyuiop
+        asdfghjkl
+        zxcvbnm
+        []
+        ;'\
+        ,./
+        {}
+        :"|
+        <>?
+        ~`
+        ±§
